@@ -36,7 +36,7 @@ const Register = () => {
 
     try {
       const { data, status } = await axios.post(
-        "http://localhost:5000/register",
+        "https://admin-task-dealsdray.onrender.com/register",
         {
           username: formData.username,
           email: formData.email,
