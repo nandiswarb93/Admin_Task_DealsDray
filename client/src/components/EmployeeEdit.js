@@ -21,7 +21,7 @@ function EmployeeEdit() {
   const fetchEmployeeData = async (id) => {
     try {
       const { data } = await axios.get(
-        `http://localhost:5000/employeeedit/${id}`
+        `https://admin-task-dealsdray.onrender.com/employeeedit/${id}`
       );
       console.log(data, "response data");
 
