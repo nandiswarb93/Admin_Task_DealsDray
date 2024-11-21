@@ -87,7 +87,7 @@ function EmployeeEdit() {
     e.preventDefault();
     try {
       const response = await axios.put(
-        `http://localhost:5000/employeelist/${id}`,
+        `https://admin-task-dealsdray.onrender.com/employeelist/${id}`,
         employee
       );
       if (response.status === 200) {
